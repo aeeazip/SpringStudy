@@ -16,3 +16,8 @@
 - Entity와 Repository 같은 패키지에 위치
 - Entity 각종 Annotation 주석으로 정리
 - Jpa에서는 Repository가 Dao 역할
+
+### Controller / Service / Repository / Dto와 테스트 코드 작성
+- 호출 순서 : Controller > Service > Repository
+- 특정 계층에서 역할과 Annotation 주석으로 정리
+- ControllerTest에서 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) 와 TestRestTemplate 사용 -> JPA 기능 테스트 
