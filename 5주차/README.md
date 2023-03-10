@@ -29,7 +29,7 @@
 
 - ResponseEntity : HttpEntity의 확장으로 HttpStatus의 상태 코드 추가 가능
 
-- |  | HttpStatusCode 반환 여부 |
+|  | HttpStatusCode 반환 여부 |
 | :---: | :---: |
 | HttpEntity | X |
 | ResponseEntity | O |
