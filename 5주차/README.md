@@ -1,4 +1,4 @@
-## 스프링 부트
+## 
 - IntellJ 스프링 부트 초기 설정
 - 스프링 부트에서 JUnit4 테스트 코드 작성
 - Domain과 Domain 테스트 코드 작성 (Entity, Repository)
